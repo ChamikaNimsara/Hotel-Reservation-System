@@ -1,0 +1,174 @@
+@charset "utf-8"
+
+body {
+ background-color: #9df092;
+}
+
+hr {
+	border-top: 2px solid red
+}
+
+button {
+	display: inline-block;
+}
+
+img {
+	display: inline-block;
+}
+
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+.reg 
+{
+	background-color: #555555;
+	font-size: 16px;
+	padding: 14px 40px;
+	border-radius: 12px;
+	color: white;
+}
+
+.reg:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.btn {
+  	float: center;
+  	border: 2px solid black;
+  	color: solid black;
+  	font-family: Arial, Helvetica, sans-serif;
+  	font-size: 16px;
+  	padding: 14px 40px;
+  	background-color: white;
+  	display: inline-block;
+  	border-radius: 12px;
+}
+
+.btn:hover {
+  background-color: black; 
+  color: white;
+}
+
+.button1 {
+	background-color: #2F4F4F;
+	font-size: 16px;
+	padding: 14px 40px;
+	border-radius: 12px;
+	color: white;
+	display: block;
+	cursor: pointer;
+}
+
+.button1:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.column {
+  float: left;
+  width: 48%;
+  padding: 15px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+
+  table, th, td {
+  border: 1px #9df092;
+  border-collapse: collapse;
+}
+th, td {
+  background-color: #78b570;
+}
+
+
+
+.container 
+{
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr; /*Here you set how many columns will be and how much of the space they will take, for example there are 3 values, meaning 3 columns, the first and the last one will take 1 space of the row, and the second one will take 4 spaces*/
+  align-items: center;
+  grid-gap: 1em; /*The gap between items*/
+}
+    
+.container .item:nth-child(2) {
+  text-align: center;
+}
+
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center
+}
+
+
+
+.col {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.rw::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.social {
+	color: #4b4c4d;
+}
+
+.social a {
+	font-size: 24px;
+	color: inherit;
+	border: 1px solid #ccc;
+	width: 40px;
+	height: 40px;
+	line-height: 38px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 50%;
+	margin: 0 8px;
+	opacity: 0.75;
+}
+
+.social a:hover {
+	opacity: 0.9;
+}
+
+.subs {
+	background-color: red;
+	font-size: 16px;
+	color: white;
+}
+

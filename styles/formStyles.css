@@ -1,0 +1,17 @@
+.frm
+{
+	width: 550px;
+	margin: auto;
+	padding: 20px;
+	background: #96b3aa;
+	border-radius: 12px;
+}
+
+.fr 
+{
+	width: 50%;
+	margin: 0;
+	padding: 20px;
+	background: #9df092;
+	border-radius: 12px;
+}

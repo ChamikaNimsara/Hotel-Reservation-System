@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Fast Booking</title>
+    <link rel="stylesheet" href=" styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>body {
+        background-color: white;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: blue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+	</style>
+</head>
+<body >
+    <section class="header" style="background-image: url('images/background1.jpg'); min-height: 50vh; background-size: cover !important; opacity: 90%; ">
+
+        <br><center><h1 style="color:white; font-size:40px; font-family: sans-serif;">FAST BOOKING</h1></center>
+
+        <table style="width:100%">
+        <tr >
+            <td style="width: 25%;">
+                <img src="..\src\images\logo3.jpg" alt="Fast Bookintg Logo" width="200" height="200" class="left">
+            </td>
+
+            <td style="width: 50%;">
+                <center>
+
+                </center>               
+            </td>
+                
+            <td style="width: 33.33%;">
+
+            </td>
+        </tr>
+        </table>
+
+    </section>
+    <hr style="margin: 0; border: 2px solid black; background-color: black;">
+    <br>
+
+	<div style="border: solid; padding: 10px; border-radius: 5px; margin: 15px;">
+        
+
+    <h1><center>Contact Us</center></h1>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+    <label for="emailaddress">Email Address</label>
+    <input type="text" id="emailaddress" name="emailaddress" placeholder="Your email address..">
+    
+    <label for="cnumber">Contact Number</label>
+    <input type="text" id="cnumber" name="cnumber" placeholder="Your contact number..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+    
+    <label for="subject">Subject</label>
+    <input type="text" id="subject" name="subject" placeholder="Subject..">
+    
+    <label for="subject">Message</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div></div>
+<br>
+        <hr style="margin: 0; border: 2px solid black; background-color: black;">
+        <section class="footer" style="background-color: #F5F5DC; ">
+
+            <table style="width:130%; margin-left: 80px;">
+                <tr>
+                    <td>
+                        <h4>About Us</h4>
+                    </td>
+                    <td>
+                        <h4>Help</h4>
+                    </td>
+                    <td>
+                        <h4>Contact us</h4>
+                    </td>
+                    <td>
+                        <h4>Subscribe to our news letter</h4>
+                    </td>
+                </tr>
+                <tr style="color: #4b4c4d;">
+                    <td><a href="aboutUs.html" style="text-decoration: none; color:#686868;">Our Story</a></td>
+                    <td><a href="Terms&conditions.html" style="text-decoration: none; color:#686868;">Terms and conditions</a></td>
+                    <td>
+                        <div class="social">
+                            <a href="https://www.instagram.com" style="color: #4b4c4d; font-size: 24px;"><i
+                                    class="fab fa-instagram"></i></a>
+                            <a href="https://www.snapchat.com" style="color: #4b4c4d; font-size: 24px;"><i
+                                    class="fab fa-snapchat"></i></a>
+                            <a href="https://www.twitter.com" style="color: #4b4c4d; font-size: 24px;"><i
+                                    class="fab fa-twitter"></i></a>
+                            <a href="https://www.facebook.com" style="color: #4b4c4d; font-size: 24px;"><i
+                                    class="fab fa-facebook"></i></a>
+                        </div>
+                    </td>
+                    <td>
+                        <form action="#" onsubmit="return">
+                            <input type="text" name="email" placeholder="Enter Your Email..." style="width: 250px"
+                                required>
+
+                    </td>
+                </tr>
+                <tr style="color: #4b4c4d;">
+                    <td><a href="ContactUs.html" style="text-decoration: none; color:#686868;">Contact us</a></td>
+                    <td><a href="PrivacyPolicy.html" style="text-decoration: none; color:#686868;">Privacy Policy</a></td>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Subscribe"
+                            style="	background-color: red; font-size: 16px; color: white;" id="submitBtn"></form>
+                    </td>
+                </tr>
+            </table>
+
+            <p style="text-align: right; font-size: 13px; color: #aaa;">
+                Copyright &copy; 2022. All rights reserved<br><br><br>
+            </p>
+        </section>
+
+</body>
+
+</html>

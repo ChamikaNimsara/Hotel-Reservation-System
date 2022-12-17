@@ -1,0 +1,59 @@
+
+.item1{
+	flex: 1;
+	background: default;
+	padding: 30px;
+	font-size: 12px;
+	font-family: 'Roboto';
+}
+
+.item2{
+	flex: 1;
+	background: default;
+	padding: 30px;
+	font-size: 12px;
+	font-family: 'Roboto';
+}
+
+.item3{
+	flex: 1;
+	background: default;
+	padding: 30px;
+	font-size: 12px;
+	font-family: 'Roboto';
+}
+
+.item4{
+	flex: 1;
+	background: default;
+	padding: 30px;
+	font-size: 12px;
+	font-family: 'Roboto';
+}
+
+.item5{
+	flex: 1;
+	background: default;
+	padding: 30px;
+	font-size: 12px;
+	font-family: 'Roboto';
+}
+
+.flex-container{
+	width: 100%;
+	display: flex;
+	background: lightgrey;
+	box-sizing: border-box;
+	flex-direction: row;
+	
+	justify-content: space-around;
+
+}
+
+@media screen and (max-width: 768px){
+	.flex-container{
+		flex-direction: column;
+	}
+	
+}
+
